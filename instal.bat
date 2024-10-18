@@ -1,0 +1,2 @@
+jekyll new . --force
+
