@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/main.css"> <!-- Correct CSS file link -->
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ "/" | relative_url }}">Home/Resume</a></li>
+                <li><a href="https://mavenanalytics.io/profile/Ivana-Radic/198741881" target="_blank">Projects</a></li>
+                <li><a href="https://medium.com/@ivana.v.radic" target="_blank">Blog</a></li> 
+            <li><a href="https://github.com/ivana394" target="_blank">GitHub</a></li> 
+            <li><a href="https://www.linkedin.com/in/ivana-radić-761a97284/" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        {{ content }} <!-- Content gets inserted here from each page -->
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+</body>
+</html>
+
+
+

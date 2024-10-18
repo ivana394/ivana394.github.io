@@ -1,0 +1,190 @@
+/* General Link Styling */
+a {
+    color: #fff; /* Ensure all links have white text */
+    text-decoration: none; /* Remove underline for all links */
+}
+
+/* Override visited and active states */
+a:visited, a:active {
+    color: #fff; /* Visited/active links keep white text */
+    background-color: #008080; /* Teal background */
+}
+
+a:hover {
+    color: #fff; /* White text on hover */
+    text-decoration: underline; /* Optional underline on hover */
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e; /* Anthracite background */
+    color: #fff; /* White text */
+}
+
+/* Header and Title */
+header {
+    background-color: #333; /* Dark gray background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #008080; /* Teal color for title */
+}
+
+/* Navigation Menu */
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0; /* Spacing for the navigation bar */
+    text-align: center; /* Center-align the buttons */
+}
+
+/* Align navigation items inline for larger screens */
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px; /* Add horizontal spacing between buttons */
+}
+
+/* Teal background for Navigation Buttons */
+header nav ul li a {
+    color: #fff; /* White text */
+    background-color: #008080; /* Teal background */
+    padding: 12px 25px; /* Padding for better visibility */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect for Navigation Buttons */
+header nav ul li a:hover {
+    background-color: #006666; /* Darker teal on hover */
+    color: #fff; /* Keep white text */
+}
+
+/* Container for Two-Column Layout */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Column for Profile Picture */
+.left {
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Right Column for About Me Information */
+.right {
+    flex: 1;
+    max-width: 45%;
+    text-align: left;
+}
+
+.right h2 {
+    color: #fff; /* White text for "About Me" */
+}
+
+.right p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Teal Download Resume Button Below About Me */
+.download-resume {
+    background-color: #008080; /* Teal */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Hover effect for the Download Resume button */
+.download-resume:hover {
+    background-color: #006666; /* Darker teal on hover */
+    color: white;
+}
+
+/* Footer Style */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0; /* Add vertical spacing between buttons */
+    }
+
+    header nav ul li a {
+        width: 100%; /* Make the buttons full-width on mobile */
+        text-align: center;
+    }
+}
+
+/* Additional Features for Styling */
+h2 {
+    font-size: 24px;
+    color: #008080; /* Matching teal color for headings */
+}
+
+h1 {
+    color: #008080;
+    font-size: 36px;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+
+
