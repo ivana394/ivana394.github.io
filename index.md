@@ -12,8 +12,8 @@ title: "Home/Resume"
   <!-- Right Column: About Me Information and Resume Button -->
   <div class="right">
     <h2>About Me</h2>
-    <p>Hello! I'm Ivana Vanja Radić, a data analyst with a strong background in bioinformatics and logistics engineering. I am passionate about solving complex problems and turning data into actionable insights. I enjoy working on challenging projects and continuously learning new technologies.</p>
-    <p>I have a Master’s degree in Bioinformatics and years of experience working with data analysis tools like R, SQL, and Tableau. I also have a background in stochastic modeling, which I applied in previous research.</p>
+    <p>Hello! I'm Ivana Vanja Radić, a data analyst with a background in bioinformatics and logistics engineering. I am passionate about solving complex problems and turning data into actionable insights. I enjoy working on challenging projects and continuously learning new technologies.</p>
+    <p>I have a Master’s degree in Bioinformatics and experience working with data analysis tools like R, Tableau, SPSS, and SQL. I also have a background in stochastic modeling and queueing theory, which I applied in previous research.</p>
     <p>Feel free to explore my projects, GitHub repositories, and blog, or get in touch with me via the contact page.</p>
 
     <!-- Download Resume Button -->
