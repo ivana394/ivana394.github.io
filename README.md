@@ -1,7 +1,7 @@
-# Ivana-Vanja Radić's Portfolio
+# My Site
 
 ## Description
-This repository contains my personal portfolio showcasing my work as a Data Analyst. It includes various projects related to bioinformatics and data analysis.
+This repository contains my personal portfolio showcasing some of my projects. 
 
 ## Live Demo
-You can view the live version of the project here: [Ivana-Vanja Radić's Portfolio](https://ivana394.github.io)
+You can view the live version of the project here: [Ivana-Vanja Radić](https://ivana394.github.io)
